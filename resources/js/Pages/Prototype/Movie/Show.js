@@ -1,4 +1,4 @@
-import { Link } from "@inertiajs/inertia-react";
+import { Head, Link } from "@inertiajs/inertia-react";
 import ReactPlayer from "react-player";
 export default function Show() {
     return (
@@ -18,7 +18,7 @@ export default function Show() {
             <div class="absolute top-5 left-5 z-20">
                 <Link href={route('prototype.dashboard')}>
                     <img
-                        src="assets/icons/ic_arrow-left.svg"
+                        src="/icons/ic_arrow-left.svg"
                         class="transition-all btn-back w-[46px]"
                         alt="stream"
                     />

@@ -4201,7 +4201,7 @@ function Show() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
         href: route('prototype.dashboard'),
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-          src: "assets/icons/ic_arrow-left.svg",
+          src: "/icons/ic_arrow-left.svg",
           "class": "transition-all btn-back w-[46px]",
           alt: "stream"
         })
